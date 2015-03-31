@@ -1,0 +1,6 @@
+FROM ruby:2.1.2-onbuild
+ENV LANG en_US.UTF-8
+ENV LC_CTYPE en_US.UTF-8
+ENV GOOGLE_ID xxxx
+ENV GOOGLE_SECRET xxxx
+ENTRYPOINT ["ruby", "gdii.rb"]
